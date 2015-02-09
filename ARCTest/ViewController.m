@@ -38,6 +38,7 @@
 -(void)click{
     
     NSLog(@"测试");
+    NSLog(@"试验下");
     
 }
 
