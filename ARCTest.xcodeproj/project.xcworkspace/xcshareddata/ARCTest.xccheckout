@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E206BB41-D84B-4F09-8C3F-FFE0E7FC3A46</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ARCTest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B2D1C74DD0298384F721AE7EF65391F39C463EBB</key>
+		<string>https://github.com/sxhstc/ARCTest.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ARCTest.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B2D1C74DD0298384F721AE7EF65391F39C463EBB</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/sxhstc/ARCTest.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B2D1C74DD0298384F721AE7EF65391F39C463EBB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B2D1C74DD0298384F721AE7EF65391F39C463EBB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ARCTest</string>
+		</dict>
+	</array>
+</dict>
+</plist>
