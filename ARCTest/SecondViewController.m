@@ -41,7 +41,6 @@
 -(void)click{
     
     NSLog(@"测试");
-    NSLog(@"你好啊");
     
 }
 
