@@ -1,25 +1,33 @@
 //
-//  ViewController.m
+//  SecondViewController.m
 //  ARCTest
 //
 //  Created by hua on 14-4-5.
 //  Copyright (c) 2014年 hua. All rights reserved.
 //
 
-#import "ViewController.h"
 #import "SecondViewController.h"
 
-@interface ViewController ()
+@interface SecondViewController ()
 
 @end
 
-@implementation ViewController
+@implementation SecondViewController
+
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        // Custom initialization
+    }
+    return self;
+}
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-    
+    // Do any additional setup after loading the view.
+
     self.view.backgroundColor=[UIColor whiteColor];
     
     UIButton *btn=[UIButton buttonWithType:UIButtonTypeRoundedRect];
@@ -28,11 +36,6 @@
     [btn addTarget:self action:@selector(click) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
     
-    UIButton *nextbtn=[UIButton buttonWithType:UIButtonTypeRoundedRect];
-    nextbtn.frame=CGRectMake(180, 60, 100, 40);
-    [nextbtn setTitle:@"下一页" forState:UIControlStateNormal];
-    [nextbtn addTarget:self action:@selector(next) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:nextbtn];
 }
 
 -(void)click{
@@ -41,18 +44,21 @@
     
 }
 
--(void)next{
-    
-    NSLog(@"下一页");
-    SecondViewController *second=[[SecondViewController alloc] init];
-    [self.navigationController pushViewController:second animated:YES];
-    
-}
-
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
 
 @end

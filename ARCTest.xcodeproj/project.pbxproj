@@ -21,6 +21,7 @@
 		85DBFB1A18EFF65B00EFB6B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85DBFAFC18EFF65B00EFB6B6 /* UIKit.framework */; };
 		85DBFB2218EFF65C00EFB6B6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 85DBFB2018EFF65C00EFB6B6 /* InfoPlist.strings */; };
 		85DBFB2418EFF65C00EFB6B6 /* ARCTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DBFB2318EFF65C00EFB6B6 /* ARCTestTests.m */; };
+		85DBFB3218EFF79600EFB6B6 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DBFB3118EFF79600EFB6B6 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		85DBFB1F18EFF65C00EFB6B6 /* ARCTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ARCTestTests-Info.plist"; sourceTree = "<group>"; };
 		85DBFB2118EFF65C00EFB6B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		85DBFB2318EFF65C00EFB6B6 /* ARCTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARCTestTests.m; sourceTree = "<group>"; };
+		85DBFB3018EFF79600EFB6B6 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		85DBFB3118EFF79600EFB6B6 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				85DBFB0A18EFF65B00EFB6B6 /* Main.storyboard */,
 				85DBFB0D18EFF65B00EFB6B6 /* ViewController.h */,
 				85DBFB0E18EFF65B00EFB6B6 /* ViewController.m */,
+				85DBFB3018EFF79600EFB6B6 /* SecondViewController.h */,
+				85DBFB3118EFF79600EFB6B6 /* SecondViewController.m */,
 				85DBFB1018EFF65B00EFB6B6 /* Images.xcassets */,
 				85DBFAFF18EFF65B00EFB6B6 /* Supporting Files */,
 			);
@@ -249,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85DBFB3218EFF79600EFB6B6 /* SecondViewController.m in Sources */,
 				85DBFB0F18EFF65B00EFB6B6 /* ViewController.m in Sources */,
 				85DBFB0918EFF65B00EFB6B6 /* AppDelegate.m in Sources */,
 				85DBFB0518EFF65B00EFB6B6 /* main.m in Sources */,
