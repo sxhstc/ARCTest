@@ -37,7 +37,8 @@
 
 -(void)click{
     
-    NSLog(@"你好，世界");
+    NSLog(@"测试");
+    NSLog(@"试验下");
     
 }
 
